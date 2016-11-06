@@ -6,7 +6,7 @@ Take a set of data from the zip file below:
 
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
-unzip this file directly into your working directory
+unzip this file directly into your working directory, it unpacks into a directory called "UCI HAR Dataset"
 
 and produce a script which will take the test and train data, filter the columns to only 
 contain the mean and std columns and then produce combined summary file which gives the
@@ -16,7 +16,7 @@ the data set consists of some "meta data" which is applicable to both datasets
 1. activity lookups in the activity_labels.txt file
 2. the column names for the datasets in the features.txt file
 
-the we have a data file for each 
+then we have a data file for each 
 train/X_train.txt
 test/X_test.txt
 
