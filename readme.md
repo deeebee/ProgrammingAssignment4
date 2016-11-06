@@ -41,3 +41,4 @@ we aggregate the results using dplyr group_by and summarise_each
 then change the column names to indicate that we have taken the means of these columns
 finally we write out a file using write_table. if you want to load the data 
 	simply use read.table with the default arguments
+The data is available in a variable called summary_data in R when the script has finished as well as the file output.txt in your working directory
