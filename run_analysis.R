@@ -62,7 +62,7 @@ new_names[2]="activity"
 colnames(summary_data) <- new_names
 
 #output the dataset
-write.table(summary_data, file="./output.txt")
+write.table(summary_data, file="./output.txt", row.name=FALSE)
 
 
 
