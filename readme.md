@@ -6,6 +6,8 @@ Take a set of data from the zip file below:
 
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
+unzip this file directly into your working directory
+
 and produce a script which will take the test and train data, filter the columns to only 
 contain the mean and std columns and then produce combined summary file which gives the
 mean values of each mean and std measure grouped by test subject and activity
@@ -26,8 +28,7 @@ which activities the subjects were conducting when they produced the data
 train/y_train.txt
 test/y_test.txt
 
-in our script run_analysis.R we assume that you have unzipped the data files into a 
-directory under your working directory called data
+in our script run_analysis.R we assume that you have unzipped the data files into your working directory
 
 Firstly we load the data into R
 Then we restrict the column names to only keep those with mean or std
