@@ -5,18 +5,18 @@ library(dplyr)
 #######load the data from the UCI HAR dataset
 #these two apply across both dataset
 #activity lookup data
-activity_labels_data <- read.table("./data/UCI HAR Dataset/activity_labels.txt", header=FALSE)
+activity_labels_data <- read.table("./UCI HAR Dataset/activity_labels.txt", header=FALSE)
 #features data (column names)
-features_data <- read.table("./data/UCI HAR Dataset/features.txt", header=FALSE)
+features_data <- read.table("./UCI HAR Dataset/features.txt", header=FALSE)
 
 #these datasets are specific to the train or test datasets
-train_subject_data <- read.table("./data/UCI HAR Dataset/train/subject_train.txt", header=FALSE)
-train_feature_data <- read.table("./data/UCI HAR Dataset/train/y_train.txt", header=FALSE)
-train_data <- read.table("./data/UCI HAR Dataset/train/X_train.txt", header=FALSE)
+train_subject_data <- read.table("./UCI HAR Dataset/train/subject_train.txt", header=FALSE)
+train_feature_data <- read.table("./UCI HAR Dataset/train/y_train.txt", header=FALSE)
+train_data <- read.table("./UCI HAR Dataset/train/X_train.txt", header=FALSE)
 
-test_subject_data <- read.table("./data/UCI HAR Dataset/test/subject_test.txt", header=FALSE)
-test_feature_data <- read.table("./data/UCI HAR Dataset/test/y_test.txt", header=FALSE)
-test_data <- read.table("./data/UCI HAR Dataset/test/X_test.txt", header=FALSE)
+test_subject_data <- read.table("./UCI HAR Dataset/test/subject_test.txt", header=FALSE)
+test_feature_data <- read.table("./UCI HAR Dataset/test/y_test.txt", header=FALSE)
+test_data <- read.table("./UCI HAR Dataset/test/X_test.txt", header=FALSE)
 #####finished data load
 
 #we only need data for the mean & std columns
