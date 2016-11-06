@@ -1,6 +1,6 @@
-Read me for Week 4 Assignment
+# Read me for Week 4 Assignment
 
-objective:
+# objective:
 
 Take a set of data from the zip file below:
 
@@ -13,8 +13,8 @@ contain the mean and std columns and then produce combined summary file which gi
 mean values of each mean and std measure grouped by test subject and activity
 
 the data set consists of some "meta data" which is applicable to both datasets
-1.	activity lookups in the activity_labels.txt file
-2.	the column names for the datasets in the features.txt file
+* activity lookups in the activity_labels.txt file 
+* the column names for the datasets in the features.txt file
 
 then we have a data file for each 
 train/X_train.txt
