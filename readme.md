@@ -28,7 +28,9 @@ which activities the subjects were conducting when they produced the data
 * train/y_train.txt
 * test/y_test.txt
 
-in our script run_analysis.R we assume that you have unzipped the data files into your working directory
+# How to run the script
+
+In our script run_analysis.R we assume that you have unzipped the data files into your working directory and placed the script run_analysis.R in that directory. We also require plyr and dplyr libraries to be installed.
 
 1. Firstly we load the data into R
 2. Then we restrict the column names to only keep those with mean or std
